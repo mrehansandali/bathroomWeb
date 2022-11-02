@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+    font-size: 1.5vw;
+}
+
+.navlogo img {
+    width: 12vw;
+}
+.navitem {
+    display: flex;
+    align-items: center;
+}
+
+.firstbox {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+.firstitem img {
+    width: 28vw;
+    box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+
+}
+
+.seconditem img {
+    width: 28vw;
+    box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+}
+
+.seconditem h1 {
+    background-color: white;
+    opacity: 0.4;
+    position: absolute;
+    width: 28vw;
+    text-align: center;
+    font-size: 3.5vw;
+    margin-top: 13%;
+    color: black;
+
+}
+
+.thirditem img {
+    width: 28vw;
+    box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+}
+
+.secondcontainer {
+    display: flex;
+    margin-top: 10%;
+}
+
+.secondcontaineritem1 {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 4%;
+    font-size: 1.5vw;
+}
+.secondcontaineritem1 h1 {
+    margin: -6% 0 0 0;
+}
+.secondcontaineritem1 p {
+    margin: 5% 0 0 0;
+}
+.secondcontaineritem1 button {
+    margin: 5% 0 0 0;
+    width: 15vw;
+    height: 5vw;
+    font-size: 1.8vw;
+    background: #E1D06F;
+    border: transparent;
+}
+.secondcontaineritem2 {
+    display: flex;
+    width: 50vw;
+}
+
+.scitemimages img {
+    width: 17vw;
+}
+
+.scii1 {
+    position: absolute;
+
+}
+
+.scii2 {
+    position: absolute; 
+    margin-left: 18%;
+    margin-top: 1%;
+}
+
+.scii3 {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 0.8%;
+}
+
+.scii4 {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 23%;
+}
+
+.scii5 {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -1%;
+}
+
+.scii6 {
+    position: absolute;
+    margin-left: -2%;
+    margin-top: 30%;
+}
+.thirdcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+}
+.tcfline {
+    display: flex;
+    margin: 0 5%;
+    justify-content: space-between;
+}
+.tctext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5vw;
+}
+.tctext p, h1 {
+    margin: 1.5% 0 3% 0;
+}
+.tcflitem1{
+    background-image: url(Rectangle\ 32.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+}
+.tcflitem2{
+    width: 30%;
+    box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+}
+.tcflitem3{
+    background-image: url(Rectangle\ 32\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+}
+
+.tcsline{
+    display: flex;
+
+}
+.tcslitem1{
+    width: 30%;
+    box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+}
+.tcslitem2{
+    background-image: url(Rectangle\ 32\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+}
+.tcslitem3{
+    width: 30%;
+    box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+}
+.tcsline {
+    display: flex;
+    margin: 5% 5%;
+    justify-content: space-between;
+}
+.bline p {
+    font-size: 1.5vw;
+    color: white;
+    padding: 10% 5%;
+}
+.bline h1{
+    font-size: 2.5vw;
+    color: white;
+    padding: 10% 5%;
+}
+.wline p {
+    font-size: 1.5vw;
+    color: black;
+    padding: 10% 5%;
+}
+.wline h1{
+    font-size: 2.5vw;
+    color: black;
+    padding: 10% 5%;
+}
+.fourthcontainer{
+    margin-top: 5%;
+}
+.fctext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fctext h1 {
+    font-size: 3vw;
+}
+.fctext p {
+    font-size: 1.5vw;
+}
+.fcfirstitem{
+    display: flex;
+    margin-top: 5%;
+}
+.fcfifirstbox img {
+    width: 45vw;
+    margin-left: 5%;
+}
+.fcfisecondbox {
+    width: 50%;
+    margin: 0 5%;
+}
+.fcfisecondbox h1 {
+    font-size: 2.8vw;
+    margin: 0 8%;
+}
+.fcfisecondbox p {
+    font-size: 1.5vw;
+    margin: 5% 0 5% 5%;
+}
+.fcseconditem{
+    display: flex;
+}
+.fcsifirstbox{
+    width: 50%;
+    margin-top: 5%;
+}
+.fcsifirstbox h1 {
+    font-size: 2.8vw;
+    margin: 0 0 0 7%;
+}
+.fcsifirstbox p {
+    font-size: 1.5vw;
+    margin: 5% 5% 0 5%;
+}
+.fcsisecondbox img {
+    width: 45vw;
+}
+.fcthirditem {
+    display: flex;
+}
+.fctifirstbox img {
+    width: 45vw;
+    margin-left: 5%;
+}
+.fctisecondbox h1 {
+    font-size: 2.8vw;
+    margin: 15% 0 0 15%;
+}
+.fctisecondbox p {
+    font-size: 1.5vw;
+    margin: 5% 0 5% 10%;
+}
+.fcbutton button {
+    margin: 5% 0 0 0;
+    width: 20vw;
+    height: 5vw;
+    font-size: 1.8vw;
+    background: #E1D06F;
+    border: transparent;
+    margin-left: 40%;
+}
+.fifthcontainer {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(image\ 9.png) ;
+    height: 39vw;
+    padding: 3%;
+    margin: 5%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fifthcontainer h1 {
+    font-size: 4vw;
+    color: white;
+    width: 85%;
+}
+.fifthcontainer p {
+    font-size: 1.6vw;
+    color: white;
+    width: 85%;
+}
+.fifthcontainer button {
+    margin: 5% 0 0 0;
+    width: 25vw;
+    height: 5vw;
+    font-size: 1.8vw;
+    background: #E1D06F;
+    border: transparent;
+}
+.sixthcontainer img{
+    width: 100vw;
+}
+@media (max-width:500px) {
+    .navbar {
+        display: none;
+    }
+    .firstbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 2%;
+    }
+    .firstitem img {
+        width: 96vw;
+        box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+        margin-top: 4%;
+    }
+    .seconditem img {
+        width: 96vw;
+        box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+        margin-top: 4%;
+    }
+    .thirditem img {
+        width: 96vw;
+        box-shadow: 1px 1px 16px 6px rgba(0, 0, 0, 0.51);
+        margin-top: 4%;
+    }
+    .seconditem h1 {
+        background-color: white;
+        color: black;
+        opacity: 0.4;
+        position: absolute;
+        width: 96%;
+        text-align: center;
+        font-size: 10vw;
+        margin-top: 40%;
+    }
+    .secondcontainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25%;
+    }
+    .secondcontaineritem1 {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        margin: 0 4%;
+    }
+    .secondcontaineritem1 h1 {
+    font-size: 6vw;
+    }
+    .secondcontaineritem1 p {
+        font-size: 3.5vw;
+    }
+    .secondcontaineritem1 button {
+        margin: 5% 0 0 0;
+        width: 40vw;
+        height: 12vw;
+        font-size: 3.5vw;
+        font-weight: 600;
+        background: #E1D06F;
+        border: transparent;
+    }
+    .secondcontaineritem2 {
+        display: flex;
+        width: 100vw;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    .scitemimages img {
+        width: 41vw;
+    }
+    .scii1 {
+        position: absolute;
+        margin-left: 5%;
+    }
+    .scii2 {
+        position: absolute; 
+        margin-left: 48%;
+        margin-top: 3%;
+    }
+    .scii3 {
+        position: absolute;
+        margin-top: 53%;
+        margin-left: 7%;
+    }
+    .scii4 {
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 56%;
+    }
+    .thirdcontainer{
+        display: flex;
+        margin-top: 120%;
+    }
+    .tctext{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tctext  h1 {
+        text-align: center;
+        font-size: 10vw;
+    }
+    .tctext p {
+        margin: 1.5% 0 3% 0;
+        font-size: 5vw;
+    }
+    .tcfline {
+        display: flex;
+        flex-direction: column;
+        margin: 0 3%;
+        justify-content: space-between;
+    }
+    .tcsline {
+        display: flex;
+        flex-direction: column;
+        margin: 0 3%;
+        justify-content: space-between;
+    }
+    .wline, .bline {
+        width: 90vw;
+        height: 100vw;
+        padding: 5% 2%;
+        margin-top: 6%;
+    }
+    .wline h1 , .bline h1{
+        font-size: 8vw;
+    }
+    .wline p , .bline p{
+        font-size: 4vw;
+    }
+    .tcflitem1{
+        height: 120vw;
+    }
+    .fourthcontainer{
+        margin-top: 20%;
+    }
+    .fctext h1 {
+        font-size: 10vw;
+        text-align: center;
+        margin: 0 2%;
+    }
+    .fctext p {
+        font-size: 5vw;
+        text-align: center;
+        margin: 5% 0;
+    }
+    .fcfirstitem{
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+    .fcfifirstbox img {
+        width: 89vw;
+        margin: 0 5%;
+    }
+    .fcfisecondbox {
+        width: 89vw;
+        margin: 0 5%;
+    }
+    .fcfisecondbox h1 {
+        font-size: 7vw;
+        margin-top: 8%;
+        text-align: center;
+    }
+    .fcfisecondbox p {
+        font-size: 4vw;
+        text-align: center;
+    }
+    .fcseconditem{
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column-reverse;
+    }
+    .fcsisecondbox img {
+        width: 89vw;
+        margin: 0 5%;
+    }
+    .fcsifirstbox {
+        width: 89vw;
+        margin: 0 5%;
+    }
+    .fcsifirstbox h1 {
+        font-size: 7vw;
+        margin-top: 4%;
+        text-align: center;
+    }
+    .fcsifirstbox p {
+        font-size: 4vw;
+        text-align: center;
+    }
+    .fcthirditem{
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+    .fctifirstbox img {
+        width: 89vw;
+        margin: 0 5%;
+    }
+    .fctisecondbox {
+        width: 89vw;
+    }
+    .fctisecondbox h1 {
+        font-size: 7vw;
+        margin-top: 4%;
+        text-align: center;
+    }
+    .fctisecondbox p {
+        font-size: 4vw;
+        text-align: center;
+    }
+    .fcbutton button {
+        margin: 5% 0 0 32%;
+        width: 35vw;
+        height: 10vw;
+        font-size: 4vw;
+        font-weight: 600;
+        background: #E1D06F;
+        border: transparent;
+    }
+    .fifthcontainer {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image\ 9.png) ;
+        height: 150vw;
+        padding: 10% 0;
+        margin: 5%;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .fifthcontainer h1 {
+        font-size: 8vw;
+        text-align: center;
+        color: white;
+        width: 85%;
+    }
+    .fifthcontainer p {
+        font-size: 4vw;
+        color: white;
+        width: 85%;
+        text-align: center;
+    }
+    .fifthcontainer button {
+        margin: 5% 0 0 0;
+        width: 30vw;
+        height: 15vw;
+        font-size: 3.5vw;
+        font-weight: 600;
+        background: #E1D06F;
+        border: transparent;
+    }
+    .sixthcontainer img{
+        display: none;
+    }
+}
